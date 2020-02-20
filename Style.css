@@ -1,0 +1,21 @@
+
+          body
+          {
+              border-style: outset; border-color: black;
+              background:Yellow;
+          }
+          h1{color: black;
+              text-align:center;
+              font-family:inherit
+        }
+          h2{color: white;
+              background-color:black;: 0.8px;
+              border: 1px;border-color:black;
+              text-align:left;
+              font-family:inherit
+        }
+          h3{color: black;
+              border: 1px;border-color:black;
+              text-align:left;
+              font-family:inherit
+        }
