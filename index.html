@@ -1,350 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>UI BRUSH</title>
-    <link rel="stylesheet" href="css/style.css" >
-    <link rel="stylesheet" href="css/responsive.css" >
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Mohammad Sayem Chowdhury</title> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="Style.css">
+    
 </head>
 <body>
-  <header>
+<!-- navbar menu -->
+<nav class="navbar navbar-expand-md navbar-light">
     <div class="container">
-      <div class="row header-wrap">
-        <div class="col">
-          <div class="logo">
-            <h1 class="text-primary">UiBrush</h1>
-
-          </div>
-        </div>
-
-          <div class="col">
-            <ul class="navbar d-flex">
-              <li><a href="">Home</a></li> 
-              <li><a href="">About Us</a></li> 
-              <li><a href="">Portfolio</a></li> 
-              <li><a href="">Services</a></li> 
-              <li><a href="">Contact Us</a></li> 
+        <a href="" class="navbar-brand">Sayem</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mynav">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">PERSONAL DETAILS</a></li>
+                <li class="nav-item dropdown" id="nav-dropdown" data-toggle="dropdown">
+                    <a href="" class="nav-link dropdown-toggle" id="nav-dropdown" data-toggle="dropdown">Services</a>
+                    <div class="dropdown-menu">
+                        <a href="" class="dropdown-item">Service One</a>
+                        <a href="" class="dropdown-item">Service Two</a>
+                        <a href="" class="dropdown-item">Service Three</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="" class="dropdown-item">Service Last</a>
+                    </div>
+            </li>
+                <li class="nav-item"><a href="#" class="nav-link">My images</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact Me</a></li>
             </ul>
-
-
         </div>
-      </div>
-    <!--banner text start here-->
-    <div class="banner-text text-center">
-      <h2 class="text-white">
-        THE ULTIMATE COLLECTION OF <br>
-        FREE PSD TEMPLATES!!
-      </h2>
-       
-      <a href="" class="btn btn-ig btn-primary">Download</a>
-
     </div>
-    <!--banner text stop here-->
-    </div>
-  </header>
+</nav>
 
-    <!-- About us start here -->
-    <section class="about-us-wrapper pad-70">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="text-uppercase">About Us</h2>
-          <p>
-            Lorem ipsum dolor sit amet tetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
-          </p>
-        </div>
+<section>
+    <div class="container p-5">
         <div class="row">
-          <div class="col col-6">
-          <div class="about-us-images">
-            <img src="/Images/about_us_car.png" alt="car">
-          </div> 
-          </div>
-          <div class="col col-6">
-            <div class="about-us-text">
-              <h3 class="border-after text-uppercase">Lorem ipsum dolor sit amet adipisicing elit.</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                 sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
-                 Ut wisi enim minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-              </p>
-              <a href="" class="btn btn-lg btn-primary">Get Started</a>
-            </div>
-          </div>
+            <div class="col-4">
+                <img src="IMG-20170709-WA0031-01.jpeg" alt="image1" class="img-fluid rounded">
         </div>
-      </div>
-
+        <div class="col-4">
+                <img src="32349384_1484247841722108_7663440142580842496_o.jpg" alt="image1" class="img-fluid rounded-circle">
+        </div>
+        <div class="col-4">
+                <img src="IMG_20200217_181425 (2).jpg" alt="image1" class="img-fluid img-thumbnail">
+        </div>
+        </div>
+    </div>
     </section>
-    <!-- About us end here -->
-    <!-- portfolio start here -->
-    <div class="portfolio-wrapper pad-70">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="text-uppercase">Portfolio</h2>
-          <p>
-            Lorem ipsum dolor sit amet tetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
-          </p>
-        </div>
-        <div class="row">
-          <!-- col start here -->
-          <div class="col col-4">
-            <div class="port-item">
-              <div class="port-img">
-                <img src="/Images/pr1.png" alt="protfolio-one">
-                <div class="overlay">
-                  <a href="" class="btn btn-readmore">Read More</a>
-                </div>
-              </div>
-              <div class="port-text d-flex">
-                <h4>Project One</h4>
-                <p><i>Web Design</i></p>
 
-              </div>
-            </div>
-          </div>
-          <!-- col end here -->
-           <!-- col start here -->
-           <div class="col col-4">
-            <div class="port-item">
-              <div class="port-img">
-                <img src="/Images/pr2.png" alt="protfolio-two">
-                <div class="overlay">
-                  <a href="" class="btn btn-readmore">Read More</a>
-                </div>
-              </div>
-              <div class="port-text d-flex">
-                <h4>Project Two</h4>
-                <p><i>logo</i></p>
 
-              </div>
-            </div>
-          </div>
-          <!-- col end here -->
-           <!-- col start here -->
-           <div class="col col-4">
-            <div class="port-item">
-              <div class="port-img">
-                <img src="/Images/pr3.png" alt="protfolio-three">
-                <div class="overlay">
-                  <a href="" class="btn btn-readmore">Read More</a>
-                </div>
-              </div>
-              <div class="port-text d-flex">
-                <h4>Project Three</h4>
-                <p><i>Photo</i></p>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+    <h1 class="display-1">Hi, I am Sayem</h1>     
+    <p class="lead">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, non. Quidem officia doloribus eaque reiciendis fugiat recusandae quo aliquid quos cupiditate esse! Reprehenderit officiis ab culpa officia veritatis, in ut.
+    </p>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    <a href="" class="btn btn-lg btn-info">Read More</a>
 
-              </div>
-            </div>
-          </div>
-          <!-- col end here -->
-           <!-- col start here -->
-           <div class="col col-4">
-            <div class="port-item">
-              <div class="port-img">
-                <img src="/Images/pr4.png" alt="protfolio-four">
-                <div class="overlay">
-                  <a href="" class="btn btn-readmore">Read More</a>
-                </div>
-              </div>
-              <div class="port-text d-flex">
-                <h4>Project Four</h4>
-                <p><i>Web Design</i></p>
+</div>
+</div>
 
-              </div>
-            </div>
-          </div>
-          <!-- col end here -->
-           <!-- col start here -->
-           <div class="col col-4">
-            <div class="port-item">
-              <div class="port-img">
-                <img src="/Images/pr5.png" alt="protfolio-five">
-                <div class="overlay">
-                  <a href="" class="btn btn-readmore">Read More</a>
-                </div>
-              </div>
-              <div class="port-text d-flex">
-                <h4>Project Five</h4>
-                <p><i>Web Design</i></p>
+</h3><h2>EDUCATION QUALIFICATION:</h2>
+<h3>
+<ul>
+        <li>Bsc in Computer Science and Engineering</li>
+        <li>American international University-Bangladesh</li>
+</ul>
 
-              </div>
-            </div>
-          </div>
-          <!-- col end here -->
-           <!-- col start here -->
-           <div class="col col-4">
-            <div class="port-item">
-              <div class="port-img">
-                <img src="/Images/pr6.png" alt="protfolio-six">
-                <div class="overlay">
-                  <a href="" class="btn btn-readmore">Read More</a>
-                </div>
-              </div>
-              <div class="port-text d-flex">
-                <h4>Project Six</h4>
-                <p><i>Web Design</i></p>
-
-              </div>
-            </div>
-          </div>
-          <!-- col end here -->
-        </div>
-
-    </div>
-
-    <!-- portfolio end here -->
-
-    <!-- services start here -->
-    <section class="services-wrapper pad-70">
-     <div class="container">
-      <div class="section-header">
-        <h2 class="text-uppercase">Services</h2>
+</h3>
+    <h3>
+<ul>
+    <li><u>HSC(Science group)</u></li>
+    <li>Passing Year:2017</li>
+        <li>Chittagong Govt. Model School and College</li>
+</ul>
+</h3>
+    <h3>
+<ul>
+    <li><u>SSC(Science group)</u></li>
+        <li>Passing Year:2015</li>
+        <li>CDA Public School and College</li>
+</ul>
+</h3>
+<h2>MY SKILLS</h2>
+<h3>
+<ul>
+<li>Programmin Language:C,C+,JAVA</li>
+<li>Web:HTML,CSS,WordPress</li>
+<li>Others:Powerpoint,Microsoft Word</li>
+</ul>
+</h3>
+<section>
+    <div class="address">
+        <h3>Address</h3>
         <p>
-          Lorem ipsum dolor sit amet tetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
+         Nandankanon, <br>
+         Chittagong,<br>
+         Bangladesh
         </p>
       </div>
-      <div class="row">
-        <!-- service col item start -->
-        <div class="col col-3">
-          <div class="service-item">
-            <div class="icon">
-              <i class="fas fa-camera"></i>
-              </div>
-              <h4 class="service-after">Photography</h4>
-              <p class="service-description">
-                Lorem ipsum dolor sit amet tetuer adipiscing elit,
-                 sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
-            </p>
-            <a href= "" class="btn btn-readmore-black">Read More</a>
+<footer>
 
-            </div>
-          </div>
-          <!-- service col item end -->
-           <!-- service col item start -->
-        <div class="col col-3">
-          <div class="service-item">
-            <div class="icon">
-              <i class="fas fa-paint-brush"></i>
-              </div>
-              <h4 class="service-after">Painting</h4>
-              <p class="service-description">
-                Lorem ipsum dolor sit amet tetuer adipiscing elit,
-                 sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
-            </p>
-            <a href= "" class="btn btn-readmore-black">Read More</a>
-
-            </div>
-          </div>
-          <!-- service col item end -->
-         
-          <!-- service col item start -->
-        <div class="col col-3">
-          <div class="service-item">
-            <div class="icon">
-              <i class="fas fa-cut"></i>
-              </div>
-              <h4 class="service-after">Video Editing</h4>
-              <p class="service-description">
-                Lorem ipsum dolor sit amet tetuer adipiscing elit,
-                 sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
-            </p>
-            <a href= "" class="btn btn-readmore-black">Read More</a>
-
-            </div>
-          </div>
-          <!-- service col item end -->
-          <!-- service col item start -->
-        <div class="col col-3">
-          <div class="service-item">
-            <div class="icon">
-              <i class="fab fa-html5"></i>
-              </div>
-              <h4 class="service-after">Web Design</h4>
-              <p class="service-description">
-                Lorem ipsum dolor sit amet tetuer adipiscing elit,
-                 sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
-            </p>
-            <a href= "" class="btn btn-readmore-black">Read More</a>
-
-            </div>
-          </div>
-          <!-- service col item end -->
+    <div class="">
+        <a href="https://www.facebook.com/SAAYEEEM"><i class="fab fa-facebook fa-3x"></i></a>
+        <a href="https://www.linkedin.com/in/mohammad-sayem-chowdhury-a3384b80"><i class="fab fa-linkedin fa-3x"></i></a>
+        <a href="mailto: m.sayem.c@ieee.org"><i class="fab fa-instagram fa-3x"></i></a>
         </div>
-      </div>
-    </section>
-    <!-- sevices end here -->
- <!-- contact us start here -->
- <section class="contact-us-wrapper pad-70">
-  <div class="container">
-   <div class="section-header">
-     <h2 class="text-uppercase">Contact Us</h2>
-     <p>
-       Lorem ipsum dolor sit amet tetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
-     </p>
-   </div>
-      <div class="row">
-        <div class="col col-6">
-          <div class="about-us-text">
-            <h3 class="border-after text-uppercase">Contact Info</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-              quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-            </p>
-            <div class="address">
-              <h4>Address</h4>
-              <p>
-               1 Dawson Drive, <br>
-               15th Avenue,<br>
-               Little Rock, AR 72211
-
-              </p>
-            </div>
-          </div>
         </div>
-        <div class="col col-6">
-          <form action="">
-            <div class="row">
-              <div class="col col-6">
-                <div class="form-group">
-                  <input type="text" name="" placeholder="Name..."
-                  class="form-control"> 
-                </div>
-                </div>
-                <div class="col col-6">
-                  <div class="form-group">
-                    <input type="email" name="" placeholder="Email..."
-                    class="form-control"> 
-                  </div>
-                </div>
-              </div>
-                  <div class="form-group">
-                    <input type="text" name="" placeholder="Subject..."
-                    class="form-control"> 
-                  </div>
-                  <div class="form-group">
-                    <textarea name="" id="" cols="30" rows="15" class="form-text"
-                    placeholder="Message..."></textarea>
-                  </div>
-                  <div class="form-group">
-                    <input type="submit" value="Submit" name="" class="btn btn-lg btn-primary btn-submit">
-                  </div>
-          </form>
-        </div>
-      </div>
-    </div>
-
-  </section>
- <!-- contact us end here -->
-
- <!-- footer section start here -->
- <footer>
- <div class="container text-center text-white">
-  Copyright © 2014 UIBrush.
+<div class="container text-center text-black">
+    Copyright © 2020 Mohammad Sayem Chowdhury.
  </div>
- </footer>
- <!-- footer section end here -->
-    <script src="https://kit.fontawesome.com/2065a5e896.js" crossorigin="anonymous"></script>
+</footer>
 
-</body>
-</html>
+<script src="https://kit.fontawesome.com/2065a5e896.js" crossorigin="anonymous"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body></html>
