@@ -1,1 +1,1 @@
-Project/index.html
+index.html
